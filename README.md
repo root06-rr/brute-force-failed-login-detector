@@ -1,12 +1,12 @@
 # Automated Brute-Force & Failed Login Detector
 
-Hey there! 👋
+Hey there!
 
 This is a lightweight security automation script I built in Python to help analyze server authentication logs and detect potential brute-force or credential-stuffing attacks.
 
 ---
 
-### 💡 Why I Built This
+### Why I Built This
 
 When monitoring systems as an analyst, checking authentication logs manually line by line is slow and impractical. A common pattern in brute-force attacks is a single IP address generating dozens of failed login attempts in a short timeframe across different accounts (like `admin`, `root`, or standard users).
 
@@ -14,7 +14,7 @@ I wanted to build a simple, reliable script that could ingest raw log files, tal
 
 ---
 
-### ⚙️ How It Works
+### How It Works
 
 1. **Ingests Log Data:** Uses Python's `with open()` context manager to safely open and read raw server log files without leaving open file descriptors.
 2. **Normalizes & Parses:** Cleans whitespace and splits the data line by line using `.splitlines()` (which avoids platform-specific line-ending bugs between Windows and Linux).
