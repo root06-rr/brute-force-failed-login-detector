@@ -1,0 +1,6 @@
+=== SECURITY ALERT: FAILED LOGIN AUDIT REPORT ===
+Flagged Suspicious IP Addresses: 2
+--------------------------------------------------
+
+[ALERT] IP: 203.0.113.45 | Failed Attempts: 4
+[ALERT] IP: 198.51.100.89 | Failed Attempts: 4
